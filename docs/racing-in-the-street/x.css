@@ -1,0 +1,59 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-family: system-ui, 'Segoe UI', Roboto, Ubuntu, Helvetica, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 704px;
+  margin: 32px auto;
+  padding: 0 48px;
+  line-height: 1.5;
+}
+
+main {
+  margin: 0 32px;
+}
+
+footer {
+  height: 200px;
+}
+
+a {
+  color: #0056b3; 
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #003f7f; 
+  text-decoration: underline;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: none;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 12px 0 4px 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  padding: 12px 0;
+}

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Explore Bruce Springsteen's iconic ballad 'Racing in the Street' reimagined with a new harmony">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="x.css">
+    <style>
+    #divLyrics > pre { white-space:pre-wrap;margin:0;padding:0; transition: background-color 0.4s ease; }
+    .hl { background: #933;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+             0 0 20px rgba(255, 255, 255, 0.6); 
+    }
+    </style>
+    <title>Racing in the street</title>
+</head>
+<body>
+<p>
+<div style="text-align:right;color:#888">March, 2025</div>
+</p>
+<h1>Reharmonizing “Racing in the street”</h1>
+
+<p>🎵 Listen to Bruce Springsteen singing his iconic 1978 song against a different harmony</p>
+
+<p>
+<div style="background:black; color:white;">
+    <audio style="margin:0 auto;display:block;padding:20px;" id="au0" controls><source src='gits.mp3'></source></audio>
+    <div id="divLyrics" style="margin:0 30px;">
+    <pre id="divL0">
+        Dm
+I got a sixty-nine Chevy with a three-ninety-six</pre><pre id="divL1">
+        A/C#
+Fuelie heads and a Hurst on the floor</pre><pre id="divL2">
+        C
+She's waiting tonight down in the parking lot</pre><pre id="divL3">
+            G
+Outside the Seven-Eleven store</pre><pre>
+    </pre>
+    </div>
+</div>
+</p>
+
+
+<h1>How to do it</h2>
+
+<p>
+  <b>Reharmonizing</b> 
+  <sup>
+    <code style="font-size: smaller; font-family: monospace;">/riːˈhɑː.mə.naɪz/</code>
+  </sup> 
+  taking an existing melodic line and altering the harmony that accompanies it
+</p>
+
+<h2>1. The song</h2>
+
+<p>Search for <i>“racing in the street springsteen mp3”</i>
+   and you will find it everywhere: Amazon, Spotify, YouTube, Apple Music, ... 
+   I got mine from YouTube <sup>[<a title='racing in the street' href='#r1'>1</a>]</sup>
+</p>
+  
+<p>
+    <audio controls><source src='rits.original.mp3'></source></audio>
+</p>
+
+
+<h2>2. The vocals</h2>
+
+
+<p>
+Use a tool to isolate the vocal track from the rest of the audio.
+
+I have used Vocal Remover <sup>[<a title='Vocal Remover' href="#r2">2</a>]</sup>
+and this was the result:
+</p>
+<p>
+    <audio controls><source src='rits.vocals.only.mp3'></source></audio>
+</p>
+
+
+<h2>3. The Harmony</h2>
+<p>
+    I found a faithful piano transcription on YouTube <sup>[<a href='#r3'>3</a>]</sup>.
+    The 🎹 piano piece is Roy Bittan at his best, using a 3-3-2 rhythmic pattern within a chord progression F, B♭, Gm, B♭
+</p>
+<p>
+    <img style="width:100%" width=704 height=270 src="rits.score.704x270.jpg" alt="original score"/>
+</p>
+<p>
+    Create a new chord progression that, somehow, fits with the melody. I come up with Dm, A/C#, C, G
+</p>    
+
+<h2>4. Your Harmony</h2>
+<p>
+  Use a tool to write the new piano section. 
+</p>
+<p>
+  I used the abc notation<sup>[<a href='#r4'>4</a>]</sup>
+  and the abctools online editor<sup>[<a href='#r5'>5</a>]</sup>
+  and come out with this new score:
+</p>  
+<p>
+  <img src="(new).rits.704x331.png" width=704 height=331 style="background-color:#eee;padding:20px 0;width:100%;" alt="new score"/>
+</p>
+<p>
+<pre style="font-size:12px;width:100%;height:230px;resize:none;padding:4px;background-color:#eee;">
+X: 1
+T: (new) Racing in the street 
+M: 4/4
+L: 1/8
+Q: 1/4=86
+V:1
+|[DFA]3 [DFA]3 [DFA]2|[DFA]3 [DFA]3 [DFA]2|[^CEA]3 [^CEA]3 [^CEA]2|[^CEA]3 [^CEA]3 [^CEA]2|
+V:2 clef=bass
+| D,3 D,4 A,| D,3 D,4 A,| ^C,3 ^C,4 A,|^C,3 ^C,4 A,|
+V:1
+|[CEG]3 [CEG]3 [CEG]2|[CEG]3 [CEG]3 [CEG]2|[B,DG]3 [B,DG]3 [B,DG]2 |[B,DG]3 [B,DG]3 [B,DG]2 |
+V:2
+|C,3 C,4 E,| C,3 C,4 E, | G,,3 G,,3 G,, D,| G,,3 G,,3 G,, D, |</pre>
+</p>
+<p>
+  and exported the result as a .wav file
+</p>
+<p>
+    <audio controls><source src='(new).rits.mp3'></source></audio>
+</p>
+</ul>
+
+<h2>5. Mix</h2>
+<p>
+Combine the two tracks: Bruce's isolated voice and your newly written piano section. 
+  I used Audacity <sup>[<a href="#r6">6</a>]</sup> for it
+</p>
+
+
+<h2>Resources</h2>
+<p>
+    <div style="font-size:12px">
+    <div id="r1">[1] <a href="https://www.youtube.com/watch?v=cm9UuM3UXdc">YouTube - Racing in the street</a></div>
+    <div id="r2">[2] <a href="https://vocalremover.org/">Vocal Remover </a></div>
+    <div id="r3">[3] <a href='https://www.youtube.com/watch?v=ZDRKyZr6MrE'>YouTube - Racing In The Street - TutorialsByHugo </a></div>
+    <div id="r4">[4] <a href="https://abcnotation.com/">abc notation</a></div>
+    <div id="r5">[5] <a href="https://michaeleskin.com/abctools/abctools.html">Michal Eskin abc online editor</a></div>
+    <div id="r6">[6] <a href="https://www.audacityteam.org/">Audacity ® | Audio editor and recorder</a></div>
+    </div>
+</p>
+
+<footer></footer>
+
+<script>
+  document.getElementById('au0').ontimeupdate = function(e) {
+    const t = au0.currentTime;
+    divL0.className = divL1.className = divL2.className = divL3.className = '';
+    if      (t < 0.5)         ; // No action
+    else if (t < 6)           divL0.className = 'hl';
+    else if (t < 12)          divL1.className = 'hl';
+    else if (t < 17)          divL2.className = 'hl';
+    else if (t < 22)          divL3.className = 'hl';
+}
+</script>
+</body>
+</html>
+
