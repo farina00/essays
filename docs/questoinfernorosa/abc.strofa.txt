@@ -1,0 +1,37 @@
+X: 1
+T: (new) Questo Inferno Rosa
+M: 4/4
+L: 1/8
+Q: 1/4=63
+V:1
+|[CFA] 2 [CFA]2  [CEA]2 [CEA]2 |[DFA]2 [DFA]2 [CFA]2 [CFA]2|
+V:2 clef=bass
+| F,3 F,1 E,3 E,1| D,3, D,1  C,3 C,1 |
+V:1
+| [F,_B,C]2 [F,_B,C]2 [G,_B,C]2 [G,_B,C]2 | [F,A,C]2 [F,A,C]1 [F,_B,C]1 [F,A,C]2 [F,A,C]2 |
+V:2
+| _B,,3 _B,,1 _E,,3 [E,,B,,]1| [F,,C,]3 F,,1 F,,3 C,1|
+V:1
+|[CFA] 2 [CFA]2  [CEA]2 [CEA]2 |[DFA]2 [DFA]2 [CFA]2 [CFA]2|
+V:2 clef=bass
+| F,3 F,1 E,3 E,1| D,3, D,1  C,3 C,1 |
+V:1
+| [F,_B,C]2 [F,_B,C]2 [G,_B,C]2 [G,_B,C]2 | [F,A,C]2 [F,A,C]1 [F,_B,C]1 [F,A,C]2 [F,A,C]2 |
+V:2
+| _B,,3 _B,,1 _E,,3 [E,,B,,]1| [F,,C,]3 F,,1 F,,3 C,1|
+V:1
+|[CFA] 2 [CFA]2  [CEA]2 [CEA]2 |[DFA]2 [DFA]2 [CFA]2 [CFA]2|
+V:2 clef=bass
+| F,3 F,1 E,3 E,1| D,3, D,1  C,3 C,1 |
+V:1
+| [F,_B,C]2 [F,_B,C]2 [G,_B,C]2 [G,_B,C]2 | [F,A,C]2 [F,A,C]1 [F,_B,C]1 [F,A,C]2 [F,A,C]2 |
+V:2
+| _B,,3 _B,,1 _E,,3 [E,,B,,]1| [F,,C,]3 F,,1 F,,3 C,1|
+V:1
+|[G,B,E]2[G,B,E]2[G,B,E]2[G,B,E]2| [A,CE]2[A,CE]2[A,CE]2[A,CE]2|
+V:2 clef=bass
+|C,3 C,1 C,3 C,1 | F,,3 F,,1 F,,3 F,,1 |
+V:1
+| [F,_B,C]2 [F,_B,C]2 [G,_B,C]2 [G,_B,C]2 | [F,A,C]2 [F,A,C]1 [F,_B,C]1 [F,A,C]4 |
+V:2
+| _B,,3 _B,,1 _E,,3 [E,,B,,]1| [F,,C,]3 F,,1 F,,4|
