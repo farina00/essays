@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Questo Inferno Rosa di Lucio Battisti (riarmonizzato)">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="x.css">
+    <style>
+    #divLyrics > pre { white-space:pre-wrap;margin:0;padding:0 0 6px 0; transition: background-color 0.4s ease; font-size:14px;}
+    .hl { background: #933;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+             0 0 20px rgba(255, 255, 255, 0.6); 
+    }
+    </style>
+    <title>Questo Inferno Rosa - riarmonizzato</title>
+</head>
+<body>
+<p>
+<div style="text-align:right;color:#888">Maggio, 2025</div>
+</p>
+<h1>“Questo Inferno Rosa” riarmonizzato</h1>
+
+<p>🎵 Capolavoro di Lucio Battisti su un armonia diversa</p>
+
+<p>
+<div style="background:black; color:white;">
+    <audio style="margin:0 auto;display:block;padding:20px;" id="au0" controls><source src='qir.harm.mp3'></source></audio>
+    <div id="divLyrics" style="margin:0 30px;">
+    <pre id="divL0">
+F           Am/E          Dm       F/C
+Non ferirmi no, non farlo mai più</pre><pre id="divL1">
+B♭2            E♭6                   F             F♭2      F
+I baci tranquillizzanti mi buttano giù</pre><pre id="divL2">
+F             Am/E          Dm               F/C
+Tu vuoi mostrare a tutti l'amore che c'è fra noi</pre><pre id="divL3">
+B♭2                    E♭6               F             F♭2      F
+Una medaglia al valore che da sola ti dai</pre><pre id="divL4">
+F                  Am/E               Dm          F/C
+Adesso che hai una casa un uomo e una reputazione</pre><pre id="divL5">
+B♭2              E♭6                     F         F♭2      F
+Padrona, padrona anche del tuo padrone</pre><pre id="divL6">
+C7+                                                   F7+
+Vorresti che ti seguissi nel goder con distinzione di tutti i frutti della vita</pre><pre id="divL7">
+B♭2              E♭6                          F         F♭2      F
+quasi quasi compresi quelli colti da altre dita</pre><pre>
+
+</pre>    
+</div>
+</div>
+
+<br><br>
+
+<p> Il brano originale</p>
+<audio style="display:block;padding:20px;" controls><source src='qir.orig.mp3'></source></audio> 
+
+
+<p> Solo la voce</p>
+
+<audio style="display:block;padding:20px;" controls><source src='qir.vocals.mp3'></source></audio> 
+
+<p> La nuova parte (piano)</p>
+<audio style="display:block;padding:20px;" controls><source src='qir.piano.reharm.mp3'></source></audio> 
+
+<footer></footer>
+
+<script>
+  document.getElementById('au0').ontimeupdate = function(e) {
+    const t = au0.currentTime;
+    divL0.className = divL1.className = divL2.className = divL3.className = divL4.className = divL5.className = divL6.className = divL7.className = divL3.className = ''; 
+    if      (t < 0.5)         ; // No action
+    else if (t < 8.5)         divL0.className = 'hl';
+    else if (t < 16)          divL1.className = 'hl';
+    else if (t < 24)          divL2.className = 'hl';
+    else if (t < 32)          divL3.className = 'hl';
+    else if (t < 40)          divL4.className = 'hl';
+    else if (t < 47)          divL5.className = 'hl';
+    else if (t < 55)          divL6.className = 'hl';
+    else if (t < 62)          divL7.className = 'hl';
+}
+</script>
+</body>
+</html>
+
